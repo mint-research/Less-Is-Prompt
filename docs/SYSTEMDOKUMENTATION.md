@@ -1,154 +1,86 @@
-# Neomint Systemprompt: Umfassende Systemdokumentation
+# TOKEN-PRICE-OPTIMIZER: Systemdokumentation
 
-## 1. Architekturübersicht
+## 1. Architektur
 
-### 1.1 Systemziele
-- Optimierung von KI-Kommunikationseffizienz
-- Minimierung von Tokenkosten
-- Maximierung kontextueller Präzision
+### 1.1 Ziele
+- KI-Kommunikationsoptimierung in Webanwendungen
+- Token-Minimierung
+- Präzisionsmaximierung
 
-## 2. Repository-Struktur
+## 2. Struktur
 
-### 2.1 Hauptverzeichnisse
 ```
-neomint-systemprompt/
-│
-├── core/                   # Kernkomponenten
-│   └── SYSTEMPROMPT.md    # Universelle Grundprinzipien
-│
-├── extensions/             # Plattform-Erweiterungen
-│   └── GITHUB_EXTENSION.md
-│
-├── languages/              # Sprachspezifische Optimierungen
+token-price-optimizer/
+├── README.md              # Projektdokumentation und Anleitung
+├── core/                  # Kernkomponenten
+│   └── SYSTEMPROMPT.md    # Haupt-Systemprompt
+├── activation/            # Aktivierungskomponenten
+│   └── ACTIVATION.md      # Verstärkungsprompt zur Aktivierung
+├── languages/             # Sprachspezifische Module
 │   ├── PYTHON.md
-│   ├── POWERSHELL.md
-│   ├── RUST.md
 │   ├── JAVASCRIPT.md
-│   └── TYPESCRIPT.md
-│
-├── validation/             # Validierungswerkzeuge
-│   ├── token_efficiency.py
-│   └── prompt_validator.sh
-│
-├── .github/workflows/      # CI/CD Konfigurationen
-│   ├── prompt_validation.yml
-│   └── token_efficiency.yml
-│
-└── docs/                   # Dokumentation
-    └── README.md
+│   ├── TYPESCRIPT.md
+│   ├── RUST.md
+│   └── POWERSHELL.md
+├── integration/           # Integrationsanleitungen
+│   └── WEB_INTEGRATION.md # Web-Integrationsanleitung
+├── docs/                  # Dokumentation
+│   └── SYSTEMDOKUMENTATION.md # Diese Datei
+└── COMBINED.md            # All-in-One Lösung
 ```
 
 ## 3. Kernkomponenten
 
 ### 3.1 SYSTEMPROMPT.md
-#### Funktion
-- Definiert universelle Kommunikationsprinzipien
-- Setzt grundlegende Optimierungsstrategien
-- Garantiert konsistente KI-Interaktion
+- Definiert Kommunikationsprinzipien
+- Setzt Optimierungsstrategien
+- Garantiert Interaktionskonsistenz
 
-#### Schlüsselelemente
-- Kommunikationsarchitektur
-- Systemische Constraints
-- Unveränderliche Direktiven
-
-### 3.2 Verstärkungsprompt
-#### Funktion
+### 3.2 Verstärkungsprompt (ACTIVATION.md)
 - Sichert Systemprompt-Integrität
-- Ermöglicht automatische Spracherkennung
-- Verhindert lokale Modifikationen
-
-#### Mechanismen
-- Repository-Referenzierung
-- Unveränderlichkeitsgarantie
-- Kontextuelle Adaption
+- Aktiviert automatische Spracherkennung
+- Referenziert Repository via URL
 
 ## 4. Sprachoptimierungen
+- Sprachspezifische Strategien
+- Optimierte Muster
+- Automatische Aktivierung bei Code-Generierung
 
-### 4.1 Spezifische Optimierungsdateien
-- Jede Datei (PYTHON.md, POWERSHELL.md, etc.)
-- Enthält sprachspezifische Effizienzstrategien
-- Ermöglicht kontextuelle Anpassung
+## 5. Automatische Spracherkennung
+- Kontextbasierte Erkennung der Programmiersprache
+- Keine manuelle Auswahl erforderlich
+- Intelligente Anpassung an Code-Anfragen
 
-#### Optimierungsprinzipien
-- Minimierung von Tokenkosten
-- Maximierung semantischer Präzision
-- Sprachtypische Effizienzmuster
+## 6. Nutzung in Webanwendungen
 
-## 5. Validierungsmechanismen
+### 6.1 Integration
+- URL-Bereitstellung in Webanwendung
+- Direkter Zugriff via Raw-URLs
 
-### 5.1 token_efficiency.py
-#### Funktionen
-- Zählt Tokens in Dokumenten
-- Bewertet Effizienz
-- Generiert Optimierungsberichte
-
-### 5.2 prompt_validator.sh
-#### Funktionen
-- Überprüft Markdown-Strukturen
-- Validiert Dokumentenkonsistenz
-- Sichert Qualitätsstandards
-
-## 6. Workflow-Automatisierung
-
-### 6.1 GitHub Actions
-#### Prompt-Validierung
-- Automatische Validierung bei Änderungen
-- Sicherstellung von Dokumentenqualität
-- Kontinuierliche Integrationsprüfungen
-
-#### Token-Effizienz-Monitoring
-- Regelmäßige Effizienzanalyse
-- Automatisierte Optimierungsvorschläge
-
-## 7. Versionierung
-
-### 7.1 LLM_VERSION.md
-#### Funktionen
-- Tracking unterstützter LLM-Versionen
-- Dokumentation von Änderungen
-- Transparenz der Systementwicklung
-
-## 8. Erweiterbarkeit
-
-### 8.1 Integrationsmechanismen
-- Offene Architektur
-- Einfache Spracherweiterung
-- Modulare Systemkomponenten
-
-## 9. Sicherheits- und Integritätskonzepte
-
-### 9.1 Unveränderlichkeitsprinzip
-- Zentrale Systemquelle
-- Keine lokalen Modifikationen
-- Absolute Integritätssicherung
-
-## 10. Nutzungsszenarien
-
-### 10.1 Projekt-Integration
-- Repository als Quelle
-- Direkter Systemprompt-Import
-- Keine manuelle Konfiguration
-
-### 10.2 Chat-Nutzung
-- Verstärkungsprompt zu Beginn
+### 6.2 Chat-Nutzung
+- Verstärkungsprompt zu Beginn jeder Session
 - Automatische Spracherkennung
 - Sofortige Kontextoptimierung
 
-## 11. Technische Anforderungen
+## 7. Direkter Zugriff
+Alle Dateien sind direkt via Raw-URLs zugänglich:
+- Repository: https://github.com/mint-research/token-price-optimizer
+- Systemprompt: https://raw.githubusercontent.com/mint-research/token-price-optimizer/main/core/SYSTEMPROMPT.md
+- All-in-One: https://raw.githubusercontent.com/mint-research/token-price-optimizer/main/COMBINED.md
 
-### 11.1 Voraussetzungen
-- Git
-- Grundlegende Programmierkenntnisse
-- Kompatible KI-Plattform
+## 8. Token-Optimierung
 
-## 12. Erweiterungs- und Beitragsmöglichkeiten
+### 8.1 Strategien
+- Präzise, kompakte Formulierungen
+- Trigger-Wörter (Großschreibung, Ausrufezeichen)
+- Strukturelle Hierarchie 
+- Semantische Prägnanz
 
-### 12.1 Beitragsrichtlinien
-- Pull Requests willkommen
-- Fokus auf Effizienzverbesserung
-- Strikte Qualitätsprüfungen
+### 8.2 Ergebnisse
+- ~50 Tokens für Core-Systemprompt
+- ~30-40 Tokens pro Sprachmodul
+- ~100 Tokens für Combined-Lösung
 
----
-
-**Letzte Aktualisierung:** [Aktuelles Datum]
-**Version:** 1.0.0
+## 9. Version
+- Version: 1.0.0
+- Unterstützte Modelle: Claude 3 Familie, GPT-4
