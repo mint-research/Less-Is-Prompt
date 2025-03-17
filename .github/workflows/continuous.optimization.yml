@@ -1,0 +1,44 @@
+name: Continuous Repository Optimization
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # Monatliche Ausführung
+  workflow_dispatch:  # Manuelle Auslösung möglich
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # Vollständiger Repository-Klon
+    
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.9'
+    
+    - name: Set up Git
+      run: |
+        git config user.name 'Optimization Bot'
+        git config user.email 'optimization-bot@neomint.ai'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install tiktoken openai anthropic  # Beispiel-KI-Bibliotheken
+    
+    - name: Run Optimization Script
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      run: |
+        chmod +x optimization_script.sh
+        ./optimization_script.sh
+    
+    - name: Push Changes
+      run: |
+        git add .
+        git commit -m "Automatische Repository-Optimierung" || echo "Keine Änderungen"
+        git push

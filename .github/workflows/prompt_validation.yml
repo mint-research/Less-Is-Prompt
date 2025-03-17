@@ -1,0 +1,39 @@
+name: Systemprompt Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install tiktoken
+    
+    - name: Validate Systemprompt
+      run: |
+        chmod +x validation/prompt_validator.sh
+        validation/prompt_validator.sh
+    
+    - name: Token Efficiency Analysis
+      run: |
+        python validation/token_efficiency.py .
+    
+    - name: Upload Token Efficiency Report
+      uses: actions/upload-artifact@v3
+      with:
+        name: token-efficiency-report
+        path: token_efficiency_report.json
