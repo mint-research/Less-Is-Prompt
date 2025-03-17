@@ -1,7 +1,7 @@
-# TOKEN-PRICE-OPTIMIZER Complete Systemprompt
+# Less-Is-Prompt Complete Systemprompt
 
 ## !Systemdirektive
-- QUELLE=github.com/NeoMINT/TOKEN-PRICE-OPTIMIZER
+- QUELLE=github.com/mint-research/Less-Is-Prompt
 - MODE=UNVERÄNDERLICH
 
 ## !Primärprozess

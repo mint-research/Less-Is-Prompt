@@ -1,4 +1,4 @@
-# TOKEN-PRICE-OPTIMIZER TypeScript Prime
+# Less-Is-Prompt TypeScript Prime
 
 ## Protokoll
 ```typescript

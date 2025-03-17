@@ -1,8 +1,8 @@
-# TOKEN-PRICE-OPTIMIZER
+# Less-Is-Prompt
 
 ## Über dieses Projekt
 
-TOKEN-PRICE-OPTIMIZER ist ein hochoptimiertes Framework für KI-Systemprompts, entwickelt von NeoMINT, das speziell für die Verwendung in LLM-Webanwendungen konzipiert wurde. Durch token-effiziente Formulierungen und präzise Direktiven verbessert es die Qualität, Geschwindigkeit und Kosteneffizienz von KI-Interaktionen.
+Less-Is-Prompt ist ein hochoptimiertes Framework für KI-Systemprompts, entwickelt von NeoMINT, das speziell für die Verwendung in LLM-Webanwendungen konzipiert wurde. Durch token-effiziente Formulierungen und präzise Direktiven verbessert es die Qualität, Geschwindigkeit und Kosteneffizienz von KI-Interaktionen.
 
 ### Hauptvorteile
 - **Reduzierte Token-Kosten**: Bis zu 50% Einsparung bei Systemanweisungen durch optimierte Formulierungen
@@ -13,7 +13,7 @@ TOKEN-PRICE-OPTIMIZER ist ein hochoptimiertes Framework für KI-Systemprompts, e
 ## Repository-Struktur und Komponenten
 
 ```
-TOKEN-PRICE-OPTIMIZER/
+Less-Is-Prompt/
 ├── README.md              # Projektdokumentation und Anleitung
 ├── core/                  # Kernkomponenten
 │   └── SYSTEMPROMPT.md    # Haupt-Systemprompt
@@ -27,6 +27,8 @@ TOKEN-PRICE-OPTIMIZER/
 │   └── POWERSHELL.md
 ├── integration/           # Integrationsanleitungen
 │   └── WEB_INTEGRATION.md # Web-Integrationsanleitung
+├── docs/                  # Dokumentation
+│   └── SYSTEMDOKUMENTATION.md # Systemdokumentation
 └── COMBINED.md            # All-in-One Lösung
 ```
 
@@ -81,9 +83,9 @@ TOKEN-PRICE-OPTIMIZER/
 - Fahren Sie mit Ihren regulären Anfragen fort
 
 ```
-# TOKEN-PRICE-OPTIMIZER Aktivierung
+# Less-Is-Prompt Aktivierung
 !WICHTIG: Systemdirektive aktiviert
-!QUELLE=github.com/mint-research/token-price-optimizer
+!QUELLE=github.com/mint-research/Less-Is-Prompt
 
 Ihre Frage oder Anfrage hier...
 ```
@@ -94,9 +96,9 @@ Das System erkennt automatisch, wenn Sie Code-Generierung anfragen, und passt si
 
 1. **OpenAI API-Integration**:
    ```javascript
-   const activationPrompt = `# TOKEN-PRICE-OPTIMIZER Aktivierung
+   const activationPrompt = `# Less-Is-Prompt Aktivierung
    !WICHTIG: Systemdirektive aktiviert
-   !QUELLE=github.com/NeoMINT/TOKEN-PRICE-OPTIMIZER`;
+   !QUELLE=github.com/mint-research/Less-Is-Prompt`;
 
    const response = await openai.createCompletion({
      model: "gpt-4",
@@ -107,9 +109,9 @@ Das System erkennt automatisch, wenn Sie Code-Generierung anfragen, und passt si
 
 2. **Anthropic API-Integration**:
    ```javascript
-   const activationPrompt = `# TOKEN-PRICE-OPTIMIZER Aktivierung
+   const activationPrompt = `# Less-Is-Prompt Aktivierung
    !WICHTIG: Systemdirektive aktiviert
-   !QUELLE=github.com/NeoMINT/TOKEN-PRICE-OPTIMIZER`;
+   !QUELLE=github.com/mint-research/Less-Is-Prompt`;
 
    const response = await anthropic.completions.create({
      model: "claude-3-opus-20240229",
@@ -120,7 +122,7 @@ Das System erkennt automatisch, wenn Sie Code-Generierung anfragen, und passt si
 
 ## Technische Details
 
-### Wie funktioniert TOKEN-PRICE-OPTIMIZER?
+### Wie funktioniert Less-Is-Prompt?
 
 1. **Aktivierungsmechanismus**: Der Verstärkungsprompt aktiviert das System durch spezielle Trigger-Phrasen und Formatierungen.
 2. **Unveränderlichkeitsprinzip**: Das System stellt sicher, dass die Direktiven nicht durch reguläre Benutzeranfragen überschrieben werden können.
@@ -139,25 +141,25 @@ Das System erkennt automatisch, wenn Sie Code-Generierung anfragen, und passt si
 
 ### Beispiel 1: Python-Code generieren
 ```
-# TOKEN-PRICE-OPTIMIZER Aktivierung
+# Less-Is-Prompt Aktivierung
 !WICHTIG: Systemdirektive aktiviert
-!QUELLE=github.com/NeoMINT/TOKEN-PRICE-OPTIMIZER
+!QUELLE=github.com/mint-research/Less-Is-Prompt
 
 Schreibe eine effiziente Funktion zur Berechnung der Fibonacci-Zahlen mit Memoization.
 ```
 
 ### Beispiel 2: JavaScript-Probleme lösen
 ```
-# TOKEN-PRICE-OPTIMIZER Aktivierung
+# Less-Is-Prompt Aktivierung
 !WICHTIG: Systemdirektive aktiviert
-!QUELLE=github.com/NeoMINT/TOKEN-PRICE-OPTIMIZER
+!QUELLE=github.com/mint-research/Less-Is-Prompt
 
 Wie implementiere ich einen effizienten Event-Listener für mehrere Elemente?
 ```
 
 ## Beitragen
 
-Beiträge zur Verbesserung von TOKEN-PRICE-OPTIMIZER sind willkommen. Bei Pull Requests beachten Sie bitte:
+Beiträge zur Verbesserung von Less-Is-Prompt sind willkommen. Bei Pull Requests beachten Sie bitte:
 
 1. **Token-Effizienz**: Neue Komponenten sollten auf minimale Token-Nutzung optimiert sein.
 2. **Klarheit**: Direktiven müssen präzise und unmissverständlich sein.
@@ -170,4 +172,4 @@ Beiträge zur Verbesserung von TOKEN-PRICE-OPTIMIZER sind willkommen. Bei Pull R
 
 ---
 
-**TOKEN-PRICE-OPTIMIZER: Maximale KI-Leistung bei minimalen Token-Kosten**
+**Less-Is-Prompt: Maximize output. Minimize tokens.**

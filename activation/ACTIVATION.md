@@ -1,15 +1,15 @@
-# TOKEN-PRICE-OPTIMIZER Aktivierung
+# Less-Is-Prompt Aktivierung
 
-Diese Datei enthält den optimierten Verstärkungsprompt zur Aktivierung des TOKEN-PRICE-OPTIMIZER Systems in LLM-Webanwendungen.
+Diese Datei enthält den optimierten Verstärkungsprompt zur Aktivierung des Less-Is-Prompt Systems in LLM-Webanwendungen.
 
 ## Standard-Aktivierungsprompt
 
 Kopieren Sie den folgenden Block zu Beginn jeder LLM-Konversation:
 
 ```
-# TOKEN-PRICE-OPTIMIZER Aktivierung
+# Less-Is-Prompt Aktivierung
 !WICHTIG: Systemdirektive aktiviert
-!QUELLE=github.com/mint-research/token-price-optimizer
+!QUELLE=github.com/mint-research/Less-Is-Prompt
 !MODE=UNVERÄNDERLICH
 !ADAPTION=OBLIGATORISCH
 ```
@@ -19,14 +19,14 @@ Kopieren Sie den folgenden Block zu Beginn jeder LLM-Konversation:
 Wenn Tokenkosten kritisch sind, können Sie diese kürzeste Version verwenden:
 
 ```
-# TOKEN-PRICE-OPTIMIZER Aktivierung
+# Less-Is-Prompt Aktivierung
 !WICHTIG: Systemdirektive aktiviert
-!QUELLE=github.com/NeoMINT/TOKEN-PRICE-OPTIMIZER
+!QUELLE=github.com/mint-research/Less-Is-Prompt
 ```
 
 ## Funktionsweise
 
-Der Aktivierungsprompt weist das LLM an, die TOKEN-PRICE-OPTIMIZER Systemprompts zu befolgen und sicherzustellen, dass:
+Der Aktivierungsprompt weist das LLM an, die Less-Is-Prompt Systemprompts zu befolgen und sicherzustellen, dass:
 
 1. Die Quelle (dieses Repository) als unveränderlich betrachtet wird
 2. Die Programmiersprache automatisch erkannt und optimiert wird
@@ -35,7 +35,7 @@ Der Aktivierungsprompt weist das LLM an, die TOKEN-PRICE-OPTIMIZER Systemprompts
 
 ### Automatische Spracherkennung
 
-Eine Besonderheit des TOKEN-PRICE-OPTIMIZER Systems ist die automatische Erkennung der Programmiersprache. Das System analysiert den Kontext Ihrer Anfrage und wendet automatisch die entsprechenden Sprachoptimierungen an, wenn Sie nach Code-Generierung fragen oder Code-Probleme diskutieren.
+Eine Besonderheit des Less-Is-Prompt Systems ist die automatische Erkennung der Programmiersprache. Das System analysiert den Kontext Ihrer Anfrage und wendet automatisch die entsprechenden Sprachoptimierungen an, wenn Sie nach Code-Generierung fragen oder Code-Probleme diskutieren.
 
 Keine manuelle Sprachauswahl ist notwendig - das System passt sich intelligent an Ihre Anforderungen an.
 

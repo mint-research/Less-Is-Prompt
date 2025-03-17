@@ -1,21 +1,19 @@
-# PowerShell: Chat-Effizienz
+# Less-Is-Prompt PowerShell Prime
 
-## Sofort-Lösungsstrategien
+## Protokoll
 ```powershell
-# Schnellste Problemlösung
-function Quick-Solve {
+function Solve-Problem {
     param($Challenge)
-    return Optimize-Solution $Challenge
+    Optimize-Solution $Challenge
 }
 
-# Kontextuelle Adaption
-function Context-Adapt {
-    param($InputData)
-    return Intelligent-Transform $InputData
+function Adapt-Context {
+    param($Input)
+    Responsive-Output $Input
 }
 ```
 
-## Chat-Optimierungsprinzipien
-- Unmittelbare Problemanalyse
-- Minimale Implementierungslatenz
-- Kontextuelle Intelligenz
+## Direktive
+- PRÄZISE lösen
+- TOKEN minimieren
+- KONTEXT adaptieren

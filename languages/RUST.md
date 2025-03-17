@@ -1,4 +1,4 @@
-# TOKEN-PRICE-OPTIMIZER Rust Prime
+# Less-Is-Prompt Rust Prime
 
 ## Protokoll
 ```rust

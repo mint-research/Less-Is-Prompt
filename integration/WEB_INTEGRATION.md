@@ -1,6 +1,6 @@
-# TOKEN-PRICE-OPTIMIZER Web-Integration
+# Less-Is-Prompt Web-Integration
 
-Diese Anleitung beschreibt verschiedene Möglichkeiten zur Integration des TOKEN-PRICE-OPTIMIZER Systems in LLM-Webanwendungen.
+Diese Anleitung beschreibt verschiedene Möglichkeiten zur Integration des Less-Is-Prompt Systems in LLM-Webanwendungen.
 
 ## Option 1: Direkte Verwendung in LLM-Interfaces
 
@@ -11,9 +11,9 @@ Diese Anleitung beschreibt verschiedene Möglichkeiten zur Integration des TOKEN
 
 Beispiel:
 ```
-# TOKEN-PRICE-OPTIMIZER Aktivierung
+# Less-Is-Prompt Aktivierung
 !WICHTIG: Systemdirektive aktiviert
-!QUELLE=github.com/mint-research/token-price-optimizer
+!QUELLE=github.com/mint-research/Less-Is-Prompt
 
 Wie kann ich einen effizienten Python-Generator schreiben?
 ```
@@ -24,10 +24,10 @@ Die Programmiersprache wird automatisch erkannt, ohne dass Sie diese spezifizier
 
 ### Vorschlag für die OpenAI API
 ```javascript
-async function queryWithOptimizer(userPrompt) {
-  const activationPrompt = `# TOKEN-PRICE-OPTIMIZER Aktivierung
+async function queryWithLessIsPrompt(userPrompt) {
+  const activationPrompt = `# Less-Is-Prompt Aktivierung
 !WICHTIG: Systemdirektive aktiviert
-!QUELLE=github.com/mint-research/token-price-optimizer`;
+!QUELLE=github.com/mint-research/Less-Is-Prompt`;
 
   const response = await openai.createCompletion({
     model: "gpt-4",
@@ -41,10 +41,10 @@ async function queryWithOptimizer(userPrompt) {
 
 ### Vorschlag für die Anthropic API
 ```javascript
-async function queryWithOptimizer(userPrompt) {
-  const activationPrompt = `# TOKEN-PRICE-OPTIMIZER Aktivierung
+async function queryWithLessIsPrompt(userPrompt) {
+  const activationPrompt = `# Less-Is-Prompt Aktivierung
 !WICHTIG: Systemdirektive aktiviert
-!QUELLE=github.com/mint-research/token-price-optimizer`;
+!QUELLE=github.com/mint-research/Less-Is-Prompt`;
 
   const response = await anthropic.completions.create({
     model: "claude-3-opus-20240229",
@@ -62,18 +62,18 @@ Für Anwendungen, die URLs als Eingabe akzeptieren, können Sie eine der folgend
 
 ### All-in-One Lösung
 ```
-https://raw.githubusercontent.com/mint-research/token-price-optimizer/main/COMBINED.md
+https://raw.githubusercontent.com/mint-research/Less-Is-Prompt/main/COMBINED.md
 ```
 
 ### Kernkomponente
 ```
-https://raw.githubusercontent.com/mint-research/token-price-optimizer/main/core/SYSTEMPROMPT.md
+https://raw.githubusercontent.com/mint-research/Less-Is-Prompt/main/core/SYSTEMPROMPT.md
 ```
 
 ### Sprachspezifische Komponenten
 ```
-https://raw.githubusercontent.com/mint-research/token-price-optimizer/main/languages/PYTHON.md
-https://raw.githubusercontent.com/mint-research/token-price-optimizer/main/languages/JAVASCRIPT.md
+https://raw.githubusercontent.com/mint-research/Less-Is-Prompt/main/languages/PYTHON.md
+https://raw.githubusercontent.com/mint-research/Less-Is-Prompt/main/languages/JAVASCRIPT.md
 // usw.
 ```
 
@@ -82,7 +82,7 @@ https://raw.githubusercontent.com/mint-research/token-price-optimizer/main/langu
 Einige LLM-Interfaces erlauben die direkte Referenzierung von GitHub-Repositories. Verwenden Sie in diesem Fall:
 
 ```
-https://github.com/mint-research/token-price-optimizer
+https://github.com/mint-research/Less-Is-Prompt
 ```
 
 Kombinieren Sie dies mit dem Aktivierungsprompt für optimale Ergebnisse.

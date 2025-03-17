@@ -1,17 +1,12 @@
-# Python: Chat-Effizienz
+# Less-Is-Prompt Python Prime
 
-## Sofort-Lösungsstrategien
+## Protokoll
 ```python
-# Schnellste Problemlösung
-def quick_solve(challenge):
-    return optimized_solution(challenge)
-
-# Kontextuelle Adaption
-def context_adapt(input_data):
-    return intelligent_transform(input_data)
+def solve(x): return optimal(x)
+def adapt(c): return context_transform(c)
 ```
 
-## Chat-Optimierungsprinzipien
-- Unmittelbare Problemanalyse
-- Minimale Implementierungslatenz
-- Kontextuelle Intelligenz
+## Direktive
+- PRÄZISE lösen
+- TOKEN minimieren
+- KONTEXT adaptieren

@@ -1,4 +1,4 @@
-# TOKEN-PRICE-OPTIMIZER JavaScript Prime
+# Less-Is-Prompt JavaScript Prime
 
 ## Protokoll
 ```javascript

@@ -1,4 +1,4 @@
-# TOKEN-PRICE-OPTIMIZER: Systemdokumentation
+# Less-Is-Prompt: Systemdokumentation
 
 ## 1. Architektur
 
@@ -10,7 +10,7 @@
 ## 2. Struktur
 
 ```
-token-price-optimizer/
+Less-Is-Prompt/
 ├── README.md              # Projektdokumentation und Anleitung
 ├── core/                  # Kernkomponenten
 │   └── SYSTEMPROMPT.md    # Haupt-Systemprompt
@@ -64,9 +64,9 @@ token-price-optimizer/
 
 ## 7. Direkter Zugriff
 Alle Dateien sind direkt via Raw-URLs zugänglich:
-- Repository: https://github.com/mint-research/token-price-optimizer
-- Systemprompt: https://raw.githubusercontent.com/mint-research/token-price-optimizer/main/core/SYSTEMPROMPT.md
-- All-in-One: https://raw.githubusercontent.com/mint-research/token-price-optimizer/main/COMBINED.md
+- Repository: https://github.com/mint-research/Less-Is-Prompt
+- Systemprompt: https://raw.githubusercontent.com/mint-research/Less-Is-Prompt/main/core/SYSTEMPROMPT.md
+- All-in-One: https://raw.githubusercontent.com/mint-research/Less-Is-Prompt/main/COMBINED.md
 
 ## 8. Token-Optimierung
 
@@ -84,3 +84,6 @@ Alle Dateien sind direkt via Raw-URLs zugänglich:
 ## 9. Version
 - Version: 1.0.0
 - Unterstützte Modelle: Claude 3 Familie, GPT-4
+
+## 10. Philosophie
+Die Philosophie hinter Less-Is-Prompt basiert auf dem Prinzip "weniger ist mehr" - durch sorgfältige Optimierung und Reduktion auf das Wesentliche werden bessere Ergebnisse erzielt als durch umfangreiche, komplexe Anweisungen.
